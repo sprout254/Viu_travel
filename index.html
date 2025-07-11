@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viu Travel - Book Your Adventure</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    section { padding: 60px 20px; text-align: center; }
+    .hero { background-image: url('https://source.unsplash.com/1600x900/?road,travel,adventure'); background-size: cover; background-position: center; color: white; }
+    .section-img { background-size: cover; background-position: center; color: white; }
+    .overlay { background-color: rgba(0, 0, 0, 0.6); padding: 40px; border-radius: 15px; display: inline-block; max-width: 600px; }
+    .pricing ul { list-style: none; padding: 0; }
+    .pricing li { margin: 15px 0; font-size: 1.2rem; font-weight: bold; }
+    .booking-form input, .booking-form select { padding: 10px; width: 90%; margin: 10px 0; border-radius: 8px; border: none; }
+    .booking-form button { background-color: #ff3366; color: white; padding: 15px 30px; border: none; border-radius: 10px; cursor: pointer; font-size: 1rem; }
+    .whatsapp-btn { display: inline-block; background-color: #25D366; color: white; padding: 15px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1 style="font-size: 3rem;">Enjoy the Journey!</h1>
+  <p>Start your adventure with Viu Travel today.</p>
+</section>
+
+<!-- Beach Relaxation Section -->
+<section class="section-img" style="background-image: url('https://source.unsplash.com/1600x900/?beach,resort,holiday');">
+  <div class="overlay">
+    <h2>Relax & Explore</h2>
+    <p>Discover beautiful beaches and luxury resorts. Escape to paradise with us!</p>
+  </div>
+</section>
+
+<!-- Safari Adventure Section -->
+<section class="section-img" style="background-image: url('https://source.unsplash.com/1600x900/?safari,kenya,wildlife');">
+  <div class="overlay">
+    <h2>Wild Safari Adventures</h2>
+    <p>Experience the magic of Kenya’s wildlife and safari tours with Viu Travel.</p>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing" style="background-color: #f9f9f9;">
+  <h2>Trip Pricing</h2>
+  <ul>
+    <li>Visit within Kenya – <span style="color: #ff3366;">KES 50,000</span></li>
+    <li>Visit within Africa – <span style="color: #ff3366;">KES 95,000</span></li>
+    <li>Visit Outside Africa – <span style="color: #ff3366;">KES 200,000</span></li>
+  </ul>
+  <p>All trips include transport, accommodation & guided tours.</p>
+</section>
+
+<!-- Booking Form -->
+<section style="background-color: #fff0f5;">
+  <h2>Book Your Trip</h2>
+  <form class="booking-form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <select required>
+      <option value="">Select Trip Type</option>
+      <option>Visit within Kenya</option>
+      <option>Visit within Africa</option>
+      <option>Visit Outside Africa</option>
+    </select>
+    <button type="submit">Submit Booking</button>
+  </form>
+  <a href="https://wa.me/254116149776" target="_blank" class="whatsapp-btn">
+    📲 Chat & Book on WhatsApp
+  </a>
+</section>
+
+<!-- Payment Info Section -->
+<section style="background-color: #f0f8ff;">
+  <h2>Payment Information</h2>
+  <p>Pay to this Paybill Number:</p>
+  <h3 style="color: #ff3366;">998608</h3>
+  <p>Account Number:</p>
+  <h3 style="color: #ff3366;">116149776</h3>
+  <p>Please send your booking payment to confirm your trip.</p>
+</section>
+
+</body>
+</html>
